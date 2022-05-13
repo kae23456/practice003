@@ -1,7 +1,7 @@
 .header {
     margin-bottom: 10px;
     background-color: #26d0c9;
-    height: 100px;
+    height: 70px;
 }
 
 
@@ -22,7 +22,9 @@
 }
 .header-list li {
     float:left;
-    padding:20px 20px;
+    padding:25px 20px;
+    font-size:15px;
+    font-weight:bold;
 }
 .list-ichi {
     font-size:small;
@@ -67,7 +69,6 @@
 
 .大罪人 {
     color:red;
-    
 }
 
 .h2-2 {
