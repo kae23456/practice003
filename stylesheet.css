@@ -1,14 +1,77 @@
 # practice003
+.header {
+    margin-bottom: 20px;
+    background-color: #26d0c9;
+    height: 65px;
+}
+
+
+
 .header-logo {
-    font-size:large;
-    color:red
+    font-size: 40px;
+    color: white;
+    border-bottom:2px solid red;
+    float:left;
+    margin-bottom: 10px;
+    margin-right: 30px;
+    font-weight:bold;
+    padding: 5px 5px  
 }
 
-.header-list {
-    font-size:small
+.header-logo span {
+    font-size: 42px;
+}
+.header-list li {
+    float:left;
+    padding:20px 20px;
+}
+.list-ichi {
+    font-size:small;
+    color: white;
+    list-style:none;
 }
 
-h1 {
-    font-size:larger
+.main {
+    background-color: white;
+}
 
+.main-top {
+    margin-bottom:70px;
+}
+
+.Welcome {
+    padding-top: 40px;
+    font-size: 45px;
+    font-family:"MS Mincho";
+    padding-left: 5px;
+
+}
+
+.h2-1 {
+    color:rgb(0, 0, 0);
+    font-size: 65px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family:"MS Mincho";
+    font-weight: 900;
+    line-height:20px;
+}
+
+.青春 {
+    color: #ff85c6;
+}
+
+.謳歌 {
+    color: blue;
+}
+
+.大罪人 {
+    color:red;
+}
+
+.h2-2 {
+    font-size: 16px;
+    padding-left:55px;
+    font-family:Arial;
+    line-height:0.7px;
 }
