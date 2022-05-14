@@ -25,6 +25,14 @@
     color:black;
 }
 
+.list-ichi a {
+    color: white;
+    text-decoration: none;
+}
+
+.list-ichi a:hover {
+    color:black;
+}
 .header-logo span {
     font-size: 42px;
 }
