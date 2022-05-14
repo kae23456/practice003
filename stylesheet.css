@@ -7,23 +7,35 @@
 .header-logo {
     font-size: 40px;
     color: white;
-    border-bottom:2px solid red;
+    border-bottom:4px solid red;
     float:left;
     margin-bottom: 10px;
-    margin-right: 30px;
+    margin-right: 60px;
     font-weight:bold;   
     padding: 5px 5px  
+}
+
+.header-logo a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.header-logo a:hover{
+    color:black;
 }
 
 .header-logo span {
     font-size: 42px;
 }
+
 .header-list li {
     float:left;
     padding:25px 20px;
     font-size:15px;
     font-weight:bold;
 }
+
 .list-ichi {
     font-size:small;
     color: white;
@@ -32,11 +44,12 @@
 
 .main {
     background-color: white;
-
+    width: 1600px;
+    margin-left:50px;
 }
 
 .main-top {
-    margin-bottom:80px;
+    margin-bottom:110px;
 }
 
 .Welcome {
@@ -70,13 +83,14 @@
 }
 
 .h2-2 {
-    font-size: 16px;
-    padding-left:55px;
+    font-size: 13px;
+    padding-left:75px;
     font-family:Arial;
 }
 
 .main-body {
     font-family:"Yu Gothic";
+    margin-bottom:110px;
 }
 
 .main-body p1 {
@@ -86,10 +100,13 @@
 h3 {
     font-size:28px;
     font-family:"MS Mincho";
+    border-bottom: 1px solid black;
 }
 
+
+
 .誓い {
-    font-weight:900;
+    font-weight: 900;
     font-size:20px
 }
 
@@ -99,6 +116,12 @@ h3 {
     font-size:20px;
 }
 
-.h5 {
-    font-size:80px;
+.main-ni {
+    margin-bottom: 110px;
+}
+
+.活動メンバー紹介 {
+    font-size:28px;
+    font-family:"MS Mincho";
+    border-bottom: 1px solid black;
 }
