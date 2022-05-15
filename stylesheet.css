@@ -57,7 +57,7 @@
 }
 
 .main-top {
-    margin-bottom:110px;
+    margin-bottom:150px;
     height:300px;
 }
 
@@ -146,10 +146,38 @@ h3 {
     margin-left:20px;
 }
 
-.aori p1{
+.活動メンバー紹介-中身 p1{
     font-size:25px;
+    font-weight:450;
 }
 
-.aori p2 {
+.aori,.asuto,.genki,.hibiki,.hiroki,.kaede,.mahiro,.mei,.yumeka p2 {
     font-size:18px;
+    margin-bottom:38px;
+}
+
+.役員紹介 {
+    font-size:28px;
+    font-family:"MS Mincho";
+    border-bottom: 1px solid black;
+}
+
+td,
+th {
+    border: 2px solid black;
+    padding: 10px;
+    font-size:18px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: .8rem;
+}
+
+table {
+    width:400px;
+    height:150px;
 }
