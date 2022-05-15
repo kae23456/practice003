@@ -32,6 +32,7 @@
 .list-ichi a:hover {
     color:black;
 }
+
 .header-logo span {
     font-size: 42px;
 }
@@ -51,12 +52,13 @@
 
 .main {
     background-color: white;
-    margin-right:200px;
+    margin-right:100px;
     margin-left:50px;
 }
 
 .main-top {
     margin-bottom:110px;
+    height:300px;
 }
 
 .Welcome {
@@ -64,6 +66,7 @@
     font-size: 45px;
     font-family:"MS Mincho";
     padding-left: 15px;
+
 }
 
 .h2-1 {
@@ -74,6 +77,12 @@
     font-family:"MS Mincho";
     font-weight: 900;
     line-height:95px;
+}
+
+@media screen and (min-width: 768px){
+    .sp {
+      display: none;
+    }
 }
 
 .青春 {
@@ -92,6 +101,7 @@
     font-size: 13px;
     padding-left:75px;
     font-family:Arial;
+    line-height:0px;
 }
 
 .main-body {
@@ -108,6 +118,8 @@ h3 {
     font-family:"MS Mincho";
     border-bottom: 1px solid black;
 }
+
+
 
 .誓い {
     font-weight: 900;
@@ -128,4 +140,16 @@ h3 {
     font-size:28px;
     font-family:"MS Mincho";
     border-bottom: 1px solid black;
+}
+
+.活動メンバー紹介-中身 {
+    margin-left:20px;
+}
+
+.aori p1{
+    font-size:25px;
+}
+
+.aori p2 {
+    font-size:18px;
 }
