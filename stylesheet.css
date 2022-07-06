@@ -1,7 +1,10 @@
 html { scroll-behavior: smooth;}
 
+a {
+    text-decoration: none;
+}
+
 .header {
-    margin-bottom: 10px;
     background-color: #26d0c9;
     height: 70px;
 }
@@ -11,15 +14,13 @@ html { scroll-behavior: smooth;}
     color: white;
     border-bottom:4px solid red;
     float:left;
-    margin-bottom: 10px;
-    margin-right: 60px;
+    padding-right: 60px;
     font-weight:bold;   
     padding: 5px 5px  
 }
 
 .header-logo a{
     color: white;
-    text-decoration: none;
 }
 
 .header-logo a:hover{
@@ -28,7 +29,6 @@ html { scroll-behavior: smooth;}
 
 .list-ichi a {
     color: white;
-    text-decoration: none;
 }
 
 .list-ichi a:hover {
@@ -52,33 +52,41 @@ html { scroll-behavior: smooth;}
     list-style:none;
 }
 
-.main {
-    background-color: white;
-    margin-right:100px;
-    margin-left:35px;
-}
 
 @media screen and (min-width: 960px) {
 
 }
-    
 
 .main-top {
-    margin-bottom:10px;
+    margin-bottom:90px;
+    background-image:url("https://msp.c.yimg.jp/images/v2/FUTi93tXq405grZVGgDqG4UCZfcp7uwMHCQP3LU6hdvpxL8q1U6Kho77i3BXZZ47y4iZTldufLUyozbcCsSNUYcP29IdS8ul5oVqipgS7deKWbPA8D251KCyjrdFB0VrMxSVL7Yopmro_B9u6muwXVtfIhrveQm6FVm_CTUcIcXyOYhjm-UvcyTR64l5ygNQHmifIeyBl86_uthi4ocFPzz8a-RBtd2w9REE7vxuocODq-yTtpC6p1Ie6_ks11WSkep3qDPiLdVA6ZovKb7sBw==/fu160202_shiro01.jpg?errorImage=false");
+    background-size:cover;
+    overflow: hidden;
+    margin-top:10px;
+    height:650px;
 }
 
 .Welcome {
-    padding-top: 40px;
+    padding-top: 90px;
     font-size: 45px;
     font-family:"MS Mincho";
     padding-left: 15px;
+}
+
+.sp-2 {
+    background: linear-gradient(transparent 50%, #ffffff 0%);
+    line-height: 1.3em;
+}
+
+.sp-3 {
+    border-bottom:#ffffff solid 3px;
 }
 
 .h2-1 {
     color:rgb(0, 0, 0);
     font-size: 65px;
     padding-left: 20px;
-    padding-right: 20px;
+    margin-right: 20px;
     font-family:"MS Mincho";
     font-weight: 900;
     line-height:95px;
@@ -92,14 +100,26 @@ html { scroll-behavior: smooth;}
 
 .青春 {
     color: #ff85c6;
+    text-shadow:1px 1px 0 black, -1px -1px 0 black,
+    -1px 1px 0 black, 1px -1px 0 black,
+    0px 1px 0 black,  0-1px 0 black,
+    -1px 0 0 black, 1px 0 0 black;
 }
 
 .謳歌 {
     color: blue;
+    text-shadow:1px 1px 0 black, -1px -1px 0 black,
+    -1px 1px 0 black, 1px -1px 0 black,
+    0px 1px 0 black,  0-1px 0 black,
+    -1px 0 0 black, 1px 0 0 black;
 }
 
 .大罪人 {
     color:red;
+    text-shadow:1px 1px 0 black, -1px -1px 0 black,
+    -1px 1px 0 black, 1px -1px 0 black,
+    0px 1px 0 black,  0-1px 0 black,
+    -1px 0 0 black, 1px 0 0 black;
 }
 
 .h2-2 {
@@ -110,6 +130,9 @@ html { scroll-behavior: smooth;}
     opacity:0.7;
 }
 
+.省略 {
+    font-size: small;
+}
 .main-body {
     font-family:"Yu Gothic";
     margin-bottom:110px;
@@ -136,7 +159,7 @@ h3 {
     font-size:20px;
 }
 
-.main-ni {
+.main-ni, .main-san, .main-yon{
     margin-bottom: 110px;
 }
 
@@ -190,4 +213,8 @@ table {
 table {
     width:400px;
     height:150px;
+}
+
+.表1 {
+    padding-left: 100px;
 }
